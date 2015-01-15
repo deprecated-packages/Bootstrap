@@ -1,0 +1,21 @@
+{
+	"name": "arachne/bootstrap",
+	"type": "library",
+	"keywords": [ "nette", "arachne" ],
+	"authors": [
+		{
+			"name": "Jáchym Toušek",
+			"homepage": "http://enumag.cz",
+			"email": "enumag@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"nette/bootstrap": "~2.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Arachne\\Bootstrap\\": "src/"
+		}
+	}
+}
