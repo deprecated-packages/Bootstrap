@@ -24,7 +24,7 @@ class Configurator extends BaseConfigurator
 	public function __construct(array $ignorePaths = [])
 	{
 		$this->ignorePaths = $ignorePaths;
-		parent::__construct();
+		$this->parameters = $this->getDefaultParameters();
 	}
 
 	/**
