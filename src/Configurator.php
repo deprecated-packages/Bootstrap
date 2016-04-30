@@ -4,7 +4,6 @@ namespace Arachne\Bootstrap;
 
 use Nette\Configurator as BaseConfigurator;
 use Nette\DI\Container;
-use Nette\DirectoryNotFoundException;
 use Nette\Utils\Strings;
 
 /**
