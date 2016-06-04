@@ -2,6 +2,7 @@
 	"name": "arachne/bootstrap",
 	"type": "library",
 	"keywords": [ "nette", "arachne" ],
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Jáchym Toušek",
